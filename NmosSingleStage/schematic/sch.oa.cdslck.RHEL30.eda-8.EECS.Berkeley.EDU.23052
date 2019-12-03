@@ -12,5 +12,5 @@ ProcessCreationTime_Readable   Mon Dec  2 16:58:20 2019 PST
 AppIdentifier                  OA File System Design Manager
 OSType                         unix
 ReasonForPlacingEditLock       OpenAccess edit lock
-FilePathUsedToEditLock         /home/cc/ee140/fa19/class/ee140-abi/ee140/cadence/projectParts/DREGtest/schematic/sch.oa.cdslck.dirlck
-TimeEditLocked                 Mon Dec  2 17:23:50 2019 PST
+FilePathUsedToEditLock         /home/cc/ee140/fa19/class/ee140-abi/ee140/cadence/projectParts/NmosSingleStage/schematic/sch.oa.cdslck
+TimeEditLocked                 Mon Dec  2 18:00:34 2019 PST
