@@ -3,7 +3,7 @@
 #
 capacitance \
 	 -decoupling_factor 1.0 \
-	 -ground_net "VDD"
+	 -ground_net "VSS"
 extract \
 	 -selection "all" \
 	 -type "rc_coupled"
@@ -25,11 +25,11 @@ filter_res \
 	 -min_res 0.001
 input_db -type assura \
 	 -design_cell_name "inverter layout lab2" \
-	 -directory_name "/home/cc/ee140/fa19/class/ee140-abi/ee140/cadence/AssuraLVS" \
+	 -directory_name "/home/cc/ee140/fa19/class/ee140-aag/ee140/cadence/AssuraLVS" \
 	 -format "DFII" \
 	 -run_name "inverter_LVS"
 log_file \
-	 -file_name "/home/cc/ee140/fa19/class/ee140-abi/ee140/cadence/AssuraLVS/qrc.inverter_LVS.log"
+	 -file_name "/home/cc/ee140/fa19/class/ee140-aag/ee140/cadence/AssuraLVS/qrc.inverter_LVS.log"
 mos_diffusion_parameter_extraction \
 	 -res "fast"
 output_db -type extracted_view \
@@ -44,7 +44,7 @@ output_db -type extracted_view \
 	 -res_property_name "r" \
 	 -view_name "analog_extracted"
 output_setup \
-	 -directory_name "/home/cc/ee140/fa19/class/ee140-abi/ee140/cadence/AssuraLVS" \
+	 -directory_name "/home/cc/ee140/fa19/class/ee140-aag/ee140/cadence/AssuraLVS" \
 	 -temporary_directory_name "inverter_LVS"
 process_technology \
 	 -technology_corner \
