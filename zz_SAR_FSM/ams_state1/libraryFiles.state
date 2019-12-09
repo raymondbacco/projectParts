@@ -1,0 +1,6 @@
+extDirs ".v"
+langName "Verilog"
+libFiles ""
+libName ""
+libDirs ""
+viewName "module"
